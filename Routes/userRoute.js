@@ -17,6 +17,7 @@ router.get("/:id", async (req, res) => {
 });
 
 
+
 router.post("/", async (req, res) => {
   const { firstName, lastName, email } = req.body;
   const restFields = {
